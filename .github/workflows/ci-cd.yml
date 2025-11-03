@@ -12,6 +12,11 @@ on:
     branches: [ "main" ]
 
   workflow_dispatch:
+
+env:
+  AZURE_RG: RG3
+  AZURE_SUBSCRIPTION: 867fc858-97d3-4ed2-9ecf-59de99fd6df6
+  AZURE-LOCATION: WestEurope
   
 jobs:
   build:
