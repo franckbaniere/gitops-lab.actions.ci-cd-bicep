@@ -65,3 +65,4 @@ jobs:
        with:
          inlineScript: 
            az group create --name ${{ env.AZURE_RG }} --location ${{ env.AZURE-LOCATION }}
+           
