@@ -24,6 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       configuration: release
+      
   steps:
   - name: Checkout Sources
     uses: actions/checkout@v4
